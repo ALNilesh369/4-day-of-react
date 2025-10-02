@@ -1,0 +1,9 @@
+import React from "react";
+
+function Ternary ({isMorning}) {
+    return (
+        <h2>{isMorning ? "Good Morning" : "Good Evening"}</h2>
+    );
+}
+
+export default Ternary;
